@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace ShinyTest
 {
-    public partial class App : Prism.DryIoc.PrismApplication
+    public partial class App : Prism.PrismApplication
     {
         protected override IContainerExtension CreateContainerExtension() => PrismContainerExtension.Current;
 
